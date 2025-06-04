@@ -37,7 +37,16 @@ public class Aula06Codicionais {
             System.out.println("Está com peso ideal");
          } else{
             System.out.println("Está com obesidade");
+
+            /**
+      
+             *Estrutura Switch/case
+             * 
+            * É sif/else , com á diferenca que podemos testar
+            * um valor contra várias opções diferentes
+             */
          }
+
 
        }
     }  

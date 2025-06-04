@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IMC",
+            "request": "launch",
+            "mainClass": "com.mycompany.IMC",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Exercio03",
+            "request": "launch",
+            "mainClass": "com.mycompany.Exercio03",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula05Repeticao",
             "request": "launch",
             "mainClass": "com.mycompany.Aula05Repeticao",
