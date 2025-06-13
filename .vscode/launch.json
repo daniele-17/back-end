@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Estatisticas",
+            "request": "launch",
+            "mainClass": "com.mycompany.Estatisticas",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "IMC",
             "request": "launch",
             "mainClass": "com.mycompany.IMC",
