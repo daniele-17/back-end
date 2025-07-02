@@ -19,6 +19,39 @@ public class Aula09Objetos {
        // Metodo compareTo pertence ao tipo abstrato Integer
        numero.compareTo(numero2);
 
+       // Instanciado uma classe 
+       Carro carro = new Carro(modelo:"Celta", marca:"Chevrolet");
+       carro.andar(km:60);
+      }
 
-    }
+      /*
+       * Criando uma classe dentro de outra classe
+       *  
+       * é necessário utilizar a instrução static
+       * entre public e classe
+       */
+      public static class Carro {
+        // Atributos
+        String modelo;
+        String marca;
+        int ano;
+        int quilometragem = 0;
+
+        /**
+         * Método construtor
+         * 
+         * ele é chamado quando criamos uma nova instancia
+         * da classe
+         */
+        public Carro(String modelo, String marca) {
+          this.modelo = modelo;
+          this.marca = marca;
+        }
+
+        // Ações de classe
+        void andar(int km) {
+          this.quilometragem += km;
+          System.out.println("O carro está percorrendo" + km + "km");
+         }
+      }
 }
