@@ -20,11 +20,11 @@ public class Aula09Objetos {
        numero.compareTo(numero2);
 
        // Instanciado uma classe 
-       Carro carro = new Carro(:"Celta", :"Chevrolet");
-       carro.andar(:60);
+       Carro carro = new Carro("Celta", "Chevrolet");
+       carro.andar(60);
        carro.parar();
 
-       Carro carro2 = new Carro(:"Celta", :"Chevrolet");
+       Carro carro2 = new Carro("Celta", "Chevrolet");
      
        System.out.println(carro == carro2);
 
