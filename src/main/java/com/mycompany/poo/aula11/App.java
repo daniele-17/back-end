@@ -1,4 +1,4 @@
-package com.mycompany.poo.aula10.aula11;
+package com.mycompany.poo.aula11;
 
 public class App {
     public static void main(String[] args) {
