@@ -27,10 +27,26 @@ public class Pessoa {
         System.out.println("Chamando o construtor padrão");
     }
 
-    public Pessoa(String nome, int idade, double altura, double peso) {
+    public Pessoa(String nome) {
         this.nome = nome;
         System.out.println("Chamando o construtor 2");
        }
+
+    public Pessoa(int idade){
+        this.idade = idade;
+        System.out.println("Chamando o construtor 3");
+    }
+
+   // Nao pode ter a mesma quantidade de parametros e tipos
+   // public Pessoa(double peso){
+   //     this.peso = peso;
+   //}
+    public Pessoa(double altura) {
+         this.altura = altura;
+         System.out.println("Chamando o construtor "4);
+       }
+
+      
 
     public String getNome() {
         return nome;
@@ -63,4 +79,4 @@ public class Pessoa {
      public void setPeso(double peso) {
         this.peso = peso;
     }
-
+}
