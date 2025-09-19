@@ -31,14 +31,14 @@ public class Aula03Operadores {
 
            // Soma 
            int soma = num1 + num2;
-           System.out.printin( " A soma entre " +" e " + num2 + "é:" + soma);
+           System.out.println( " A soma entre " +" e " + num2 + "é:" + soma);
 
            // Subtração
            int subtraçáo = num1 - num2;
-           System.out.printin("A subtração de " + num1 + " por " + num2 + "é: + subtração);
+           System.out.println("A subtração de " + num1 + " por " + num2 + "é: + subtração");
 
            // Multiplicado
            int multiplicação = num1 * num2;
-           System.out.printin("A divisão de 
+           System.out.println("A divisão de " + num1 + " por " + num2 + "é: + multiplicado");
     }
 }

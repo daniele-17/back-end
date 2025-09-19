@@ -10,6 +10,7 @@ package com.mycompany.poo.aula11;
     
      public String getNome() {
         return nome;
+     }
      
      public void setNome(String nome) {
         this.nome = nome;
@@ -32,7 +33,7 @@ package com.mycompany.poo.aula11;
      }
 
      public double getEstado() {
-        return Estadoo;
+        return Estado;
      }
 
      public void setEstado(double Estado) {

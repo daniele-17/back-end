@@ -3,25 +3,16 @@ package com.mycompany.poo.aula11;
 public class Calçado {
     
 
-    }private String Marca;
-     private int ;
+    private String nome;
      private double Torcida;
      private double Estado;
      private double Cidade;
     
      public String getNome() {
-        return nome;
+        return nome;}
      
      public void setNome(String nome) {
         this.nome = nome;
-     }
-
-     public int getAbreviacao() {
-        return Abreviacao;
-     }
-
-     public void setAbreviacao(int abreviacao) {
-        this.Abreviacao = Abreviacao;
      }
 
      public double getTorcida() {
@@ -33,7 +24,7 @@ public class Calçado {
      }
 
      public double getEstado() {
-        return Estadoo;
+        return Estado;
      }
 
      public void setEstado(double Estado) {

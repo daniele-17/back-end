@@ -34,8 +34,8 @@ public class Aula05Repeticao {
         Scanner scan = new Scanner(System.in); // Cria o scanner
         System.out.println("Digite um número: ");
 
-        int numero = scan.nextln(); // Le o valor digitado e capturado pelo scanner
-        System.out.println("Voce digitou" + numero + " !! ")
+        int numero = scan.nextInt(); // Le o valor digitado e capturado pelo scanner
+        System.out.println("Voce digitou" + numero + " !! ");
     }
 
 }
